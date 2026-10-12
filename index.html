@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uke Emmanuel | Fullstack Engineer</title>
+  <meta name="description"
+    content="Uke Emmanuel – Fullstack engineer (Next.js, React, Tailwind, Firebase, Supabase), Virtual Assistant and Customer Service Assistant." />
+  <meta name="theme-color" content="#2563eb" />
+  <meta property="og:title" content="Uke Emmanuel – Fullstack Engineer" />
+  <meta property="og:description" content="Clean, fast, accessible web apps and reliable client support." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/favicon/apple-touch-icon.png" />
+  <meta property="og:locale" content="en_NG" />
+  <meta name="twitter:card" content="summary" />
+
+  <link rel="preload" href="fonts/LexendDeca-Regular.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="preload" href="fonts/LexendDeca-Bold.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="images/favicon/site.webmanifest" />
+  <link rel="stylesheet" href="style.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Uke Emmanuel",
+    "jobTitle": "Fullstack Engineer",
+    "email": "mailto:ukeemmanuel68@gmail.com",
+    "telephone": "+2347069522180",
+    "url": "https://github.com/EmmyReflexx",
+    "address": { "@type": "PostalAddress", "addressCountry": "NG" }
+  }
+  </script>
+</head>
+
+<body>
+  <div id="preloader" aria-hidden="true">
+    <div class="preloader-content">
+      <div class="preloader-spinner"></div>
+      <div class="preloader-brand">Uke Emmanuel</div>
+    </div>
+  </div>
+
+  <header>
+    <div class="header-container">
+      <a class="logo" href="#home">Uke Emmanuel</a>
+      <div class="header-right">
+        <button class="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav aria-label="Primary">
+          <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#aboutMe">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#myProjects">Projects</a></li>
+            <li><a href="#contactMe" class="nav-cta">Hire Me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- HERO -->
+    <section id="heroSection">
+      <div class="floating-elements">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-left">
+          <span class="eyebrow">Available for work · Remote worldwide</span>
+          <h1>Hi, I'm <span>Uke Emmanuel</span><br />Fullstack Engineer</h1>
+          <p>
+            Two years building fast, accessible web apps with Next.js, React, Tailwind, Firebase and Supabase —
+            plus dependable Virtual Assistant and Customer Service support.
+          </p>
+          <div class="hero-left-buttons">
+            <a class="btn btn-primary" href="#contactMe">Get in Touch</a>
+            <a class="btn btn-outline" href="#myProjects">View Projects</a>
+            <a class="btn btn-ghost" href="cv/Uke-Emmanuel-CV.pdf" download>Download CV</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="profile-image">
+            <img src="images/profile.png" alt="Uke Emmanuel – Fullstack Engineer" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="aboutMe">
+      <div class="section-container">
+        <div class="section-heading">
+          <h2>About Me</h2>
+          <p>A little about who I am and how I work</p>
+        </div>
+        <div class="about-me-content">
+          <div class="about-me-text">
+            <h3>Professional fullstack engineer who also keeps clients happy</h3>
+            <p>
+              I'm a fullstack engineer with 2 years of experience, comfortable across the stack from polished
+              React and Next.js interfaces to Firebase and Supabase backends.
+            </p>
+            <p>
+              Alongside engineering, I work as a Virtual Assistant and Customer Service Assistant, so I bring
+              clear communication, fast turnaround and a service mindset to every project.
+            </p>
+            <a class="text-link" href="https://github.com/EmmyReflexx" target="_blank" rel="noopener">See my work on
+              GitHub →</a>
+          </div>
+          <div class="about-me-visual">
+            <div class="visual-card">
+              <h4>My Focus</h4>
+              <p>Building seamless digital experiences while providing exceptional support to clients and customers.</p>
+              <div class="visual-stats">
+                <div class="stat"><span class="stat-value">2+</span><span class="stat-label">Years Exp</span></div>
+                <div class="stat"><span class="stat-value">3</span><span class="stat-label">Featured Projects</span>
+                </div>
+                <div class="stat"><span class="stat-value">7</span><span class="stat-label">Core Skills</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="section-container">
+        <div class="section-heading">
+          <h2>Skills</h2>
+          <p>Click any skill to see the full details</p>
+        </div>
+        <div class="skills-grid" id="skillsGrid"></div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="myProjects">
+      <div class="section-container">
+        <div class="section-heading">
+          <h2>My Projects</h2>
+          <p>Some of my recent work</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Reflexx Secure File Vault -->
+          <article class="project-card" data-theme="vault">
+            <div class="project-image art-vault">
+              <div class="v-win">
+                <div class="v-bar">
+                  <i></i><i></i><i></i>
+                  <span>vault/private</span>
+                </div>
+                <div class="v-body">
+                  <div class="v-side">
+                    <b class="on"></b>
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                  </div>
+                  <div class="v-main">
+                    <div class="v-row"><em>📁</em> <u>documents</u></div>
+                    <div class="v-row"><em>📁</em> <u>media</u></div>
+                    <div class="v-row lock"><em>🔒</em> <u>secure_vault</u></div>
+                    <div class="v-row"><em>📄</em> <u>passwords.kdbx</u></div>
+                  </div>
+                </div>
+              </div>
+              <div class="v-badge">🔐</div>
+            </div>
+            <div class="project-details">
+              <h3>Reflexx – Secure File Vault</h3>
+              <p>A cyberpunk-themed file manager with nested folders, drag-and-drop uploads, IndexedDB persistence and a
+                password-protected vault.</p>
+              <div class="project-tech">
+                <span class="tech-tag">React 19</span>
+                <span class="tech-tag">Tailwind 4</span>
+                <span class="tech-tag">PrimeReact</span>
+                <span class="tech-tag">IndexedDB</span>
+                <span class="tech-tag">RsBuild</span>
+              </div>
+              <div class="project-links">
+                <a href="https://reflexxstorage.vercel.app/" target="_blank" rel="noopener">Live Demo</a>
+                <a href="https://github.com/EmmyReflexx/reflexxstorage" target="_blank" rel="noopener">Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Rex Photo Editor -->
+          <article class="project-card" data-theme="photo">
+            <div class="project-image art-photo">
+              <div class="p-win">
+                <div class="p-canvas">
+                  <div class="p-sun"></div>
+                  <div class="p-hill h1"></div>
+                  <div class="p-hill h2"></div>
+                </div>
+                <div class="p-panel">
+                  <div class="p-sl">
+                    <span>Brightness</span>
+                    <div><i style="width: 70%"></i></div>
+                  </div>
+                  <div class="p-sl">
+                    <span>Contrast</span>
+                    <div><i style="width: 45%"></i></div>
+                  </div>
+                  <div class="p-sl">
+                    <span>Saturation</span>
+                    <div><i style="width: 85%"></i></div>
+                  </div>
+                  <div class="p-btns">
+                    <b>Undo</b>
+                    <b class="go">Export</b>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-details">
+              <h3>Rex Photo Editor</h3>
+              <p>A browser-based photo editor with live brightness, contrast and saturation, undo/redo history,
+                dark/light theme and JPEG, PNG or WebP export.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Vanilla JS</span>
+                <span class="tech-tag">Canvas API</span>
+                <span class="tech-tag">CSS Grid</span>
+                <span class="tech-tag">localStorage</span>
+              </div>
+              <div class="project-links">
+                <a href="https://reflexx-photo-editor.netlify.app/" target="_blank" rel="noopener">Live Demo</a>
+                <a href="https://github.com/EmmyReflexx/photo-editor" target="_blank" rel="noopener">Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: TheShop -->
+          <article class="project-card" data-theme="shop">
+            <div class="project-image art-shop">
+              <div class="s-win">
+                <div class="s-nav">
+                  <span>TheShop</span>
+                  <div class="s-cart">
+                    🛒 <em>3</em>
+                  </div>
+                </div>
+                <div class="s-grid">
+                  <div class="s-card">
+                    <div class="s-img a">👕</div>
+                    <b>T-shirt</b>
+                    <span>$25</span>
+                  </div>
+                  <div class="s-card">
+                    <div class="s-img b">👟</div>
+                    <b>Sneakers</b>
+                    <span>$89</span>
+                  </div>
+                  <div class="s-card">
+                    <div class="s-img c">🧢</div>
+                    <b>Cap</b>
+                    <span>$18</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-details">
+              <h3>TheShop</h3>
+              <p>A responsive e-commerce site with login/signup, product filtering and sorting, a working cart and a
+                user profile dashboard.</p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Responsive</span>
+              </div>
+              <div class="project-links">
+                <a href="https://emmyreflexx.github.io/TheShop/" target="_blank" rel="noopener">Live Demo</a>
+                <a href="https://github.com/EmmyReflexx/theshop" target="_blank" rel="noopener">Source Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contactMe">
+      <div class="section-container">
+        <div class="section-heading">
+          <h2>Get In Touch</h2>
+          <p>Ready to start your next project? Let's talk about how I can help.</p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="info-card">
+              <div class="info-header">
+                <div class="info-icon">✉</div>
+                <h3>Email Me</h3>
+              </div>
+              <div class="info-content">
+                <p>Send me an email anytime</p><a href="mailto:ukeemmanuel68@gmail.com">ukeemmanuel68@gmail.com</a>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-header">
+                <div class="info-icon">☎</div>
+                <h3>Call Me</h3>
+              </div>
+              <div class="info-content">
+                <p>Mon – Fri, 8am to 6pm</p><a href="tel:+2347069522180">+234-706-952-2180</a>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-header">
+                <div class="info-icon">⌖</div>
+                <h3>Location</h3>
+              </div>
+              <div class="info-content">
+                <p>Based in Nigeria</p>
+                <p>Available for remote work worldwide</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-header">
+                <div class="info-icon">{ }</div>
+                <h3>GitHub</h3>
+              </div>
+              <div class="info-content">
+                <p>Browse my code and projects</p><a href="https://github.com/EmmyReflexx" target="_blank"
+                  rel="noopener">github.com/EmmyReflexx</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-container">
+            <h3>Send Me a Message</h3>
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="What is this regarding?" required />
+              </div>
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Send Message →</button>
+              <div class="form-success" id="formSuccess" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>Uke Emmanuel</h3>
+          <p>Fullstack Engineer &amp; Virtual Assistant creating clean, user-friendly digital experiences that drive
+            results.</p>
+          <div class="footer-social">
+            <a href="https://github.com/EmmyReflexx" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg>
+            </a>
+            <a href="mailto:ukeemmanuel68@gmail.com" aria-label="Email">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutMe">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#myProjects">Projects</a></li>
+            <li><a href="#contactMe">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#skills">Fullstack Development</a></li>
+            <li><a href="#skills">Virtual Assistance</a></li>
+            <li><a href="#skills">Customer Service</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Get In Touch</h4>
+          <p>ukeemmanuel68@gmail.com</p>
+          <p>+234-706-952-2180</p>
+          <p>Nigeria</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-copyright">&copy; <span id="year">2026</span> Uke Emmanuel. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z" />
+    </svg>
+  </button>
+
+  <!-- SKILL MODAL -->
+  <dialog id="skillModal" class="modal" aria-labelledby="modalTitle">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+      <div class="modal-head">
+        <div class="modal-icon" id="modalIcon"></div>
+        <div>
+          <h3 id="modalTitle"></h3>
+          <span class="modal-level" id="modalLevel"></span>
+        </div>
+      </div>
+      <p class="modal-summary" id="modalSummary"></p>
+      <h4>What I do with it</h4>
+      <ul id="modalList"></ul>
+      <div id="modalProjectsWrap">
+        <h4>Seen in</h4>
+        <div class="modal-projects" id="modalProjects"></div>
+      </div>
+      <a class="btn btn-primary modal-cta" href="#contactMe" id="modalCta">Hire me for this</a>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
